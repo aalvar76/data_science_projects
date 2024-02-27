@@ -29,4 +29,4 @@ for row in rows:
     else:
         break
 
-print(df)
+df.to_csv(csv_path)
